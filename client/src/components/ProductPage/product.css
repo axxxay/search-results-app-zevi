@@ -1,0 +1,17 @@
+/* .css-67l5gl {
+    box-shadow: none !important;
+}
+
+.css-67l5gl::before {
+    background-color: transparent !important;
+} */
+
+.drop-down-box {
+    box-shadow: beige;
+    background-color: black;
+}
+
+.drop-down-box.Mui-selected {
+    box-shadow: none;
+    background-color: transparent;
+}

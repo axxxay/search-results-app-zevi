@@ -1,0 +1,47 @@
+.home-bg-con {
+    background-image: url("/public/aesthetic-clothes-rack.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(215, 224, 255, 0.26);
+}
+
+
+.search-suggestions-modal, 
+.search-suggestions-overlay{
+  width: 100vw;
+  min-height: 100vh;
+  top: 0%;
+  left: 0;
+  right: 0;
+  
+  bottom: 0;
+  position: absolute;
+  /* z-index: 50; */
+}
+
+.search-suggestions-modal-content {
+    position: absolute;
+    top: 212px;
+    left: 19.5%;
+    line-height: 1.4;
+    background: white;
+    width: 60%;
+    /* z-index: 51; */
+    min-height: 300px;
+  }
+
+  .css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+    box-shadow: none !important;
+  }
+
+  .css-1elwnq4-MuiPaper-root-MuiAccordion-root:before {
+    background-color: transparent !important;
+  }
+
+  @media screen and (max-width: 767px) {
+    .search-suggestions-modal-content {
+      width: 90%;
+      left: 5%;
+      top: 182px;
+    }
+  }

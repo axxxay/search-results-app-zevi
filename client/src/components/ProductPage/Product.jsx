@@ -54,7 +54,6 @@ const ProductPage = () => {
                 setApiStatus(apiStatusConstants.failure)
             } else {
                 setProductData(data)
-                console.log(data)
                 setApiStatus(apiStatusConstants.success)
             }
            

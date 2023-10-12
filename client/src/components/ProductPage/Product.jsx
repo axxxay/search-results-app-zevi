@@ -33,7 +33,8 @@ const ProductPage = () => {
     useEffect(() => {
         const getProductDetails = async () => {
             setApiStatus(apiStatusConstants.inProgress)
-            const apiUrl = 'http://localhost:5000/products'
+            // const apiUrl = 'http://localhost:5000/products'
+            const apiUrl = 'https://api-search-results-app-zevi.onrender.com/products'
             const filterDetails = {
                 rating: checkedRating,
                 discountPrice: checkedPrice,
